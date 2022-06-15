@@ -1,0 +1,87 @@
+*{
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+@font-face{
+	font-family: "BlackMango";
+	src:url("fonts/BlackMango-Light.ttf");
+}
+@font-face{
+	font-family: "Afrah";
+	src:url("fonts/Afrah-Regular.ttf");
+}
+html{
+	background-color: #ffffff;
+	width: 96%;
+	height: 96%;
+	margin:auto;
+	line-height: 2em;
+	text-align: center;
+
+}
+nav{
+
+	background-color: #ffffff;
+	width: 96%;
+	position: fixed;
+	top:0px;
+	height: 100px;
+
+}
+nav ul{
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+}
+nav img{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+nav ul li a{
+	text-decoration: none;
+	font-family: "BlackMango-Light";
+	font-size: 1.5em;
+	color:#a39a95;
+	border-left:3px solid #ffffff;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	padding-bottom: 33px;
+
+}
+nav ul li a:hover{
+	background-color: #a39a95;
+	color:#ffffff;
+}
+section:nth-child(2){
+	margin-top: 100px;
+}
+
+p{
+	font-family: "Afrah"
+	font-size:1em;
+	color: #000000;
+	text-align: center;
+}
+form{
+	margin-top: 100px;
+}
+footer{
+	background-color: #ffffff;
+	color: #6e645f;
+}
+footer ul{
+	list-style-type: none;
+	display: flex; 
+	
+
+}
+footer ul li a{
+	padding-left: 7px;
+	padding-right: 7px;
+
+}
+footer ul li a: hover {
+	background-color: #ffffff;
+}
